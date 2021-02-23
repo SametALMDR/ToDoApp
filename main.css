@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+body {
+    font-family: 'Inter', sans-serif;
+}
+*:focus {
+    box-shadow: none !important;
+}
+.todo-box{
+    background: #2a363e;
+    margin:50px 0;
+    box-shadow: 0 3px 4px 0 #b1b1b1;
+}
+.form-control {
+    border: 0;
+    border-radius: 0;
+    box-shadow: 0 1px 4px 0 #b3b3b3;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.create-btn {
+    background: #d5e6f7;
+    border: 0;
+    border-radius: 0;
+    padding: 10px;
+    font-size:14px;
+}
+.version {
+    background: #475056;
+    padding: 10px 30px;
+}
+.todos {
+    border-top: 2px solid #475056;
+}
+.single-row {
+    background: #d5e6f7;
+    font-size: 14px;
+}
+.update-btn {
+    background: #56d695;
+    color: white;
+}
+.complete-btn{
+    background: #5683d6;
+    color: white;
+}
+.delete-btn {
+    background: #d65656;
+    color: white;
+}
+.complete-btn:hover,.delete-btn:hover,.update-btn:hover {
+    color: white;
+}
+.btn-actions .btn {
+    padding: 3px 5px !important;
+    margin:5px 0;
+}
